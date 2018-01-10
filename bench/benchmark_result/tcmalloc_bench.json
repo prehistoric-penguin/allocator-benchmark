@@ -1,0 +1,1712 @@
+{
+  "context": {
+    "date": "2017-06-26 15:27:46",
+    "num_cpus": 4,
+    "mhz_per_cpu": 3392,
+    "cpu_scaling_enabled": false,
+    "library_build_type": "release"
+  },
+  "benchmarks": [
+    {
+      "name": "BM_fastpath_throughput/threads:1",
+      "iterations": 50248112,
+      "real_time": 14,
+      "cpu_time": 14,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_throughput/threads:2",
+      "iterations": 47924574,
+      "real_time": 8,
+      "cpu_time": 15,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_throughput/threads:4",
+      "iterations": 40914148,
+      "real_time": 4,
+      "cpu_time": 17,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_throughput/threads:8",
+      "iterations": 41621256,
+      "real_time": 4,
+      "cpu_time": 17,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_throughput/threads:16",
+      "iterations": 40949008,
+      "real_time": 3,
+      "cpu_time": 17,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_throughput/threads:32",
+      "iterations": 32000000,
+      "real_time": 2,
+      "cpu_time": 17,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_throughput/threads:64",
+      "iterations": 49123008,
+      "real_time": 1,
+      "cpu_time": 17,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_throughput/threads:128",
+      "iterations": 47763328,
+      "real_time": 1,
+      "cpu_time": 17,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_throughput/threads:256",
+      "iterations": 41576960,
+      "real_time": 0,
+      "cpu_time": 17,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_dependent/threads:1",
+      "iterations": 51441945,
+      "real_time": 15,
+      "cpu_time": 15,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_dependent/threads:2",
+      "iterations": 43196010,
+      "real_time": 8,
+      "cpu_time": 16,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_dependent/threads:4",
+      "iterations": 43184336,
+      "real_time": 4,
+      "cpu_time": 17,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_dependent/threads:8",
+      "iterations": 45387704,
+      "real_time": 4,
+      "cpu_time": 18,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_dependent/threads:16",
+      "iterations": 41208000,
+      "real_time": 3,
+      "cpu_time": 18,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_dependent/threads:32",
+      "iterations": 41288704,
+      "real_time": 3,
+      "cpu_time": 18,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_dependent/threads:64",
+      "iterations": 40153152,
+      "real_time": 1,
+      "cpu_time": 18,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_dependent/threads:128",
+      "iterations": 43722112,
+      "real_time": 0,
+      "cpu_time": 17,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_dependent/threads:256",
+      "iterations": 43956736,
+      "real_time": 0,
+      "cpu_time": 17,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/128/threads:1",
+      "iterations": 54489610,
+      "real_time": 14,
+      "cpu_time": 14,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/128/threads:2",
+      "iterations": 46301594,
+      "real_time": 7,
+      "cpu_time": 15,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/128/threads:4",
+      "iterations": 45990008,
+      "real_time": 4,
+      "cpu_time": 14,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/128/threads:8",
+      "iterations": 45844192,
+      "real_time": 3,
+      "cpu_time": 14,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/128/threads:16",
+      "iterations": 45549840,
+      "real_time": 3,
+      "cpu_time": 16,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/128/threads:32",
+      "iterations": 32000000,
+      "real_time": 2,
+      "cpu_time": 16,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/128/threads:64",
+      "iterations": 52989696,
+      "real_time": 2,
+      "cpu_time": 15,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/128/threads:128",
+      "iterations": 54152576,
+      "real_time": 0,
+      "cpu_time": 16,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/128/threads:256",
+      "iterations": 53084928,
+      "real_time": 0,
+      "cpu_time": 16,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/4096/threads:1",
+      "iterations": 55650104,
+      "real_time": 13,
+      "cpu_time": 13,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/4096/threads:2",
+      "iterations": 53803174,
+      "real_time": 7,
+      "cpu_time": 14,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/4096/threads:4",
+      "iterations": 46610808,
+      "real_time": 4,
+      "cpu_time": 16,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/4096/threads:8",
+      "iterations": 43142608,
+      "real_time": 4,
+      "cpu_time": 16,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/4096/threads:16",
+      "iterations": 47813088,
+      "real_time": 3,
+      "cpu_time": 17,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/4096/threads:32",
+      "iterations": 48853056,
+      "real_time": 2,
+      "cpu_time": 16,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/4096/threads:64",
+      "iterations": 50479424,
+      "real_time": 1,
+      "cpu_time": 16,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/4096/threads:128",
+      "iterations": 50484736,
+      "real_time": 0,
+      "cpu_time": 14,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/4096/threads:256",
+      "iterations": 47003392,
+      "real_time": 0,
+      "cpu_time": 13,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/32768/threads:1",
+      "iterations": 53810353,
+      "real_time": 13,
+      "cpu_time": 13,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/32768/threads:2",
+      "iterations": 52396336,
+      "real_time": 7,
+      "cpu_time": 13,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/32768/threads:4",
+      "iterations": 44258088,
+      "real_time": 4,
+      "cpu_time": 15,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/32768/threads:8",
+      "iterations": 50239600,
+      "real_time": 3,
+      "cpu_time": 16,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/32768/threads:16",
+      "iterations": 41589632,
+      "real_time": 3,
+      "cpu_time": 16,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/32768/threads:32",
+      "iterations": 45675616,
+      "real_time": 3,
+      "cpu_time": 15,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/32768/threads:64",
+      "iterations": 54589312,
+      "real_time": 2,
+      "cpu_time": 16,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/32768/threads:128",
+      "iterations": 52234368,
+      "real_time": 0,
+      "cpu_time": 15,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/32768/threads:256",
+      "iterations": 50873088,
+      "real_time": 0,
+      "cpu_time": 13,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/262144/threads:1",
+      "iterations": 51133747,
+      "real_time": 14,
+      "cpu_time": 13,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/262144/threads:2",
+      "iterations": 55473784,
+      "real_time": 7,
+      "cpu_time": 13,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/262144/threads:4",
+      "iterations": 50041808,
+      "real_time": 4,
+      "cpu_time": 16,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/262144/threads:8",
+      "iterations": 41995600,
+      "real_time": 4,
+      "cpu_time": 16,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/262144/threads:16",
+      "iterations": 46615584,
+      "real_time": 3,
+      "cpu_time": 16,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/262144/threads:32",
+      "iterations": 32000000,
+      "real_time": 3,
+      "cpu_time": 18,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/262144/threads:64",
+      "iterations": 44778624,
+      "real_time": 1,
+      "cpu_time": 17,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/262144/threads:128",
+      "iterations": 31826176,
+      "real_time": 0,
+      "cpu_time": 21,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_simple/262144/threads:256",
+      "iterations": 1230848,
+      "real_time": 115,
+      "cpu_time": 850,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/8/threads:1",
+      "iterations": 5525737,
+      "real_time": 123,
+      "cpu_time": 123,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/8/threads:2",
+      "iterations": 5844152,
+      "real_time": 62,
+      "cpu_time": 122,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/8/threads:4",
+      "iterations": 4438964,
+      "real_time": 34,
+      "cpu_time": 137,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/8/threads:8",
+      "iterations": 4773048,
+      "real_time": 30,
+      "cpu_time": 138,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/8/threads:16",
+      "iterations": 5174256,
+      "real_time": 26,
+      "cpu_time": 142,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/8/threads:32",
+      "iterations": 5096928,
+      "real_time": 22,
+      "cpu_time": 136,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/8/threads:64",
+      "iterations": 6040640,
+      "real_time": 12,
+      "cpu_time": 143,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/8/threads:128",
+      "iterations": 5190656,
+      "real_time": 2,
+      "cpu_time": 133,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/8/threads:256",
+      "iterations": 5233152,
+      "real_time": 1,
+      "cpu_time": 132,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/16/threads:1",
+      "iterations": 2917673,
+      "real_time": 239,
+      "cpu_time": 236,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/16/threads:2",
+      "iterations": 2814866,
+      "real_time": 124,
+      "cpu_time": 248,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/16/threads:4",
+      "iterations": 2687444,
+      "real_time": 67,
+      "cpu_time": 267,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/16/threads:8",
+      "iterations": 2571544,
+      "real_time": 60,
+      "cpu_time": 277,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/16/threads:16",
+      "iterations": 2653936,
+      "real_time": 57,
+      "cpu_time": 276,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/16/threads:32",
+      "iterations": 2809280,
+      "real_time": 44,
+      "cpu_time": 271,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/16/threads:64",
+      "iterations": 2856704,
+      "real_time": 12,
+      "cpu_time": 268,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/16/threads:128",
+      "iterations": 2963968,
+      "real_time": 4,
+      "cpu_time": 258,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/16/threads:256",
+      "iterations": 2876672,
+      "real_time": 1,
+      "cpu_time": 248,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/32/threads:1",
+      "iterations": 1416056,
+      "real_time": 493,
+      "cpu_time": 492,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/32/threads:2",
+      "iterations": 1445128,
+      "real_time": 251,
+      "cpu_time": 482,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/32/threads:4",
+      "iterations": 1238448,
+      "real_time": 143,
+      "cpu_time": 573,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/32/threads:8",
+      "iterations": 1304664,
+      "real_time": 136,
+      "cpu_time": 575,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/32/threads:16",
+      "iterations": 1260256,
+      "real_time": 99,
+      "cpu_time": 539,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/32/threads:32",
+      "iterations": 1379808,
+      "real_time": 88,
+      "cpu_time": 536,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/32/threads:64",
+      "iterations": 1353664,
+      "real_time": 40,
+      "cpu_time": 564,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/32/threads:128",
+      "iterations": 1362176,
+      "real_time": 7,
+      "cpu_time": 512,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/32/threads:256",
+      "iterations": 1407232,
+      "real_time": 2,
+      "cpu_time": 513,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/64/threads:1",
+      "iterations": 739694,
+      "real_time": 965,
+      "cpu_time": 956,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/64/threads:2",
+      "iterations": 652058,
+      "real_time": 503,
+      "cpu_time": 1005,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/64/threads:4",
+      "iterations": 595364,
+      "real_time": 263,
+      "cpu_time": 1053,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/64/threads:8",
+      "iterations": 714152,
+      "real_time": 208,
+      "cpu_time": 1016,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/64/threads:16",
+      "iterations": 641904,
+      "real_time": 168,
+      "cpu_time": 1111,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/64/threads:32",
+      "iterations": 671008,
+      "real_time": 154,
+      "cpu_time": 1123,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/64/threads:64",
+      "iterations": 732736,
+      "real_time": 131,
+      "cpu_time": 1097,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/64/threads:128",
+      "iterations": 732416,
+      "real_time": 14,
+      "cpu_time": 1060,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/64/threads:256",
+      "iterations": 722176,
+      "real_time": 4,
+      "cpu_time": 964,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/128/threads:1",
+      "iterations": 365936,
+      "real_time": 1980,
+      "cpu_time": 1964,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/128/threads:2",
+      "iterations": 364372,
+      "real_time": 984,
+      "cpu_time": 1964,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/128/threads:4",
+      "iterations": 323156,
+      "real_time": 593,
+      "cpu_time": 2279,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/128/threads:8",
+      "iterations": 310456,
+      "real_time": 511,
+      "cpu_time": 2308,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/128/threads:16",
+      "iterations": 327680,
+      "real_time": 427,
+      "cpu_time": 2179,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/128/threads:32",
+      "iterations": 365120,
+      "real_time": 283,
+      "cpu_time": 2108,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/128/threads:64",
+      "iterations": 323456,
+      "real_time": 134,
+      "cpu_time": 2154,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/128/threads:128",
+      "iterations": 339200,
+      "real_time": 28,
+      "cpu_time": 2123,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/128/threads:256",
+      "iterations": 280832,
+      "real_time": 10,
+      "cpu_time": 2114,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/256/threads:1",
+      "iterations": 178719,
+      "real_time": 3866,
+      "cpu_time": 3860,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/256/threads:2",
+      "iterations": 186006,
+      "real_time": 2052,
+      "cpu_time": 4053,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/256/threads:4",
+      "iterations": 151208,
+      "real_time": 1111,
+      "cpu_time": 4441,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/256/threads:8",
+      "iterations": 150504,
+      "real_time": 1021,
+      "cpu_time": 4637,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/256/threads:16",
+      "iterations": 169280,
+      "real_time": 879,
+      "cpu_time": 4507,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/256/threads:32",
+      "iterations": 156256,
+      "real_time": 689,
+      "cpu_time": 4335,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/256/threads:64",
+      "iterations": 158272,
+      "real_time": 385,
+      "cpu_time": 4582,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/256/threads:128",
+      "iterations": 150528,
+      "real_time": 55,
+      "cpu_time": 4389,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/256/threads:256",
+      "iterations": 106240,
+      "real_time": 141,
+      "cpu_time": 8567,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/512/threads:1",
+      "iterations": 89941,
+      "real_time": 8151,
+      "cpu_time": 8090,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/512/threads:2",
+      "iterations": 87106,
+      "real_time": 3918,
+      "cpu_time": 7829,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/512/threads:4",
+      "iterations": 73288,
+      "real_time": 2245,
+      "cpu_time": 8969,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/512/threads:8",
+      "iterations": 82632,
+      "real_time": 1921,
+      "cpu_time": 8961,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/512/threads:16",
+      "iterations": 86000,
+      "real_time": 1657,
+      "cpu_time": 8819,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/512/threads:32",
+      "iterations": 80384,
+      "real_time": 1480,
+      "cpu_time": 9414,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/512/threads:64",
+      "iterations": 77120,
+      "real_time": 791,
+      "cpu_time": 9212,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/512/threads:128",
+      "iterations": 72320,
+      "real_time": 171,
+      "cpu_time": 9076,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/512/threads:256",
+      "iterations": 18176,
+      "real_time": 7531,
+      "cpu_time": 72335,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/1024/threads:1",
+      "iterations": 38869,
+      "real_time": 17924,
+      "cpu_time": 17912,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/1024/threads:2",
+      "iterations": 43108,
+      "real_time": 9016,
+      "cpu_time": 18009,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/1024/threads:4",
+      "iterations": 35012,
+      "real_time": 5284,
+      "cpu_time": 20252,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/1024/threads:8",
+      "iterations": 34680,
+      "real_time": 4892,
+      "cpu_time": 22391,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/1024/threads:16",
+      "iterations": 36512,
+      "real_time": 3411,
+      "cpu_time": 18869,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/1024/threads:32",
+      "iterations": 28416,
+      "real_time": 3368,
+      "cpu_time": 19568,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/1024/threads:64",
+      "iterations": 33984,
+      "real_time": 854,
+      "cpu_time": 19536,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/1024/threads:128",
+      "iterations": 11904,
+      "real_time": 9259,
+      "cpu_time": 99990,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack/1024/threads:256",
+      "iterations": 5632,
+      "real_time": 25557,
+      "cpu_time": 167555,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/8/threads:1",
+      "iterations": 6023902,
+      "real_time": 118,
+      "cpu_time": 118,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/8/threads:2",
+      "iterations": 5764514,
+      "real_time": 65,
+      "cpu_time": 128,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/8/threads:4",
+      "iterations": 5541312,
+      "real_time": 35,
+      "cpu_time": 140,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/8/threads:8",
+      "iterations": 5354824,
+      "real_time": 30,
+      "cpu_time": 139,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/8/threads:16",
+      "iterations": 4933440,
+      "real_time": 25,
+      "cpu_time": 139,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/8/threads:32",
+      "iterations": 4810592,
+      "real_time": 17,
+      "cpu_time": 136,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/8/threads:64",
+      "iterations": 2502912,
+      "real_time": 4,
+      "cpu_time": 214,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/8/threads:128",
+      "iterations": 75520,
+      "real_time": 2588,
+      "cpu_time": 20559,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/8/threads:256",
+      "iterations": 25600,
+      "real_time": 4601,
+      "cpu_time": 27258,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/16/threads:1",
+      "iterations": 2484795,
+      "real_time": 265,
+      "cpu_time": 264,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/16/threads:2",
+      "iterations": 2675032,
+      "real_time": 138,
+      "cpu_time": 276,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/16/threads:4",
+      "iterations": 2273984,
+      "real_time": 73,
+      "cpu_time": 291,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/16/threads:8",
+      "iterations": 2343472,
+      "real_time": 62,
+      "cpu_time": 302,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/16/threads:16",
+      "iterations": 2382848,
+      "real_time": 69,
+      "cpu_time": 317,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/16/threads:32",
+      "iterations": 2580096,
+      "real_time": 48,
+      "cpu_time": 296,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/16/threads:64",
+      "iterations": 619392,
+      "real_time": 16,
+      "cpu_time": 903,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/16/threads:128",
+      "iterations": 23680,
+      "real_time": 4562,
+      "cpu_time": 36744,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/16/threads:256",
+      "iterations": 12032,
+      "real_time": 10649,
+      "cpu_time": 64723,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/32/threads:1",
+      "iterations": 1183232,
+      "real_time": 624,
+      "cpu_time": 622,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/32/threads:2",
+      "iterations": 1157044,
+      "real_time": 304,
+      "cpu_time": 605,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/32/threads:4",
+      "iterations": 1062924,
+      "real_time": 181,
+      "cpu_time": 672,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/32/threads:8",
+      "iterations": 1009696,
+      "real_time": 161,
+      "cpu_time": 692,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/32/threads:16",
+      "iterations": 1080448,
+      "real_time": 146,
+      "cpu_time": 657,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/32/threads:32",
+      "iterations": 958432,
+      "real_time": 133,
+      "cpu_time": 742,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/32/threads:64",
+      "iterations": 22400,
+      "real_time": 5195,
+      "cpu_time": 29173,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/32/threads:128",
+      "iterations": 9344,
+      "real_time": 25960,
+      "cpu_time": 125810,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/32/threads:256",
+      "iterations": 4864,
+      "real_time": 24938,
+      "cpu_time": 123477,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/64/threads:1",
+      "iterations": 525782,
+      "real_time": 1368,
+      "cpu_time": 1366,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/64/threads:2",
+      "iterations": 502114,
+      "real_time": 696,
+      "cpu_time": 1391,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/64/threads:4",
+      "iterations": 508492,
+      "real_time": 395,
+      "cpu_time": 1493,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/64/threads:8",
+      "iterations": 393952,
+      "real_time": 331,
+      "cpu_time": 1517,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/64/threads:16",
+      "iterations": 368544,
+      "real_time": 370,
+      "cpu_time": 1690,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/64/threads:32",
+      "iterations": 11776,
+      "real_time": 13167,
+      "cpu_time": 58274,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/64/threads:64",
+      "iterations": 6400,
+      "real_time": 19690,
+      "cpu_time": 96998,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/64/threads:128",
+      "iterations": 4352,
+      "real_time": 37722,
+      "cpu_time": 248217,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/64/threads:256",
+      "iterations": 2560,
+      "real_time": 65174,
+      "cpu_time": 296888,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/128/threads:1",
+      "iterations": 207762,
+      "real_time": 3302,
+      "cpu_time": 3298,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/128/threads:2",
+      "iterations": 209730,
+      "real_time": 1703,
+      "cpu_time": 3308,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/128/threads:4",
+      "iterations": 140464,
+      "real_time": 1089,
+      "cpu_time": 4228,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/128/threads:8",
+      "iterations": 50504,
+      "real_time": 2582,
+      "cpu_time": 11543,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/128/threads:16",
+      "iterations": 6880,
+      "real_time": 21239,
+      "cpu_time": 104365,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/128/threads:32",
+      "iterations": 4960,
+      "real_time": 30994,
+      "cpu_time": 149303,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/128/threads:64",
+      "iterations": 4096,
+      "real_time": 38233,
+      "cpu_time": 196706,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/128/threads:128",
+      "iterations": 1280,
+      "real_time": 93811,
+      "cpu_time": 485200,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/128/threads:256",
+      "iterations": 1024,
+      "real_time": 144720,
+      "cpu_time": 663741,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/256/threads:1",
+      "iterations": 95563,
+      "real_time": 7598,
+      "cpu_time": 7447,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/256/threads:2",
+      "iterations": 32482,
+      "real_time": 9759,
+      "cpu_time": 19503,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/256/threads:4",
+      "iterations": 19504,
+      "real_time": 7222,
+      "cpu_time": 26776,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/256/threads:8",
+      "iterations": 4368,
+      "real_time": 41105,
+      "cpu_time": 166621,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/256/threads:16",
+      "iterations": 2992,
+      "real_time": 57295,
+      "cpu_time": 259557,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/256/threads:32",
+      "iterations": 1760,
+      "real_time": 72754,
+      "cpu_time": 306367,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/256/threads:64",
+      "iterations": 1728,
+      "real_time": 79642,
+      "cpu_time": 384407,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/256/threads:128",
+      "iterations": 768,
+      "real_time": 205183,
+      "cpu_time": 1049295,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/256/threads:256",
+      "iterations": 512,
+      "real_time": 411405,
+      "cpu_time": 1516296,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/512/threads:1",
+      "iterations": 9940,
+      "real_time": 74668,
+      "cpu_time": 74554,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/512/threads:2",
+      "iterations": 6620,
+      "real_time": 45401,
+      "cpu_time": 90595,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/512/threads:4",
+      "iterations": 2760,
+      "real_time": 56299,
+      "cpu_time": 207230,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/512/threads:8",
+      "iterations": 1608,
+      "real_time": 97868,
+      "cpu_time": 381012,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/512/threads:16",
+      "iterations": 1552,
+      "real_time": 140725,
+      "cpu_time": 560174,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/512/threads:32",
+      "iterations": 1408,
+      "real_time": 141980,
+      "cpu_time": 655829,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/512/threads:64",
+      "iterations": 896,
+      "real_time": 144603,
+      "cpu_time": 815091,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/512/threads:128",
+      "iterations": 384,
+      "real_time": 606046,
+      "cpu_time": 2726474,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_above64k/512/threads:256",
+      "iterations": 256,
+      "real_time": 1004432,
+      "cpu_time": 3734438,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/64/threads:1",
+      "iterations": 1025458,
+      "real_time": 707,
+      "cpu_time": 703,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/64/threads:2",
+      "iterations": 999044,
+      "real_time": 373,
+      "cpu_time": 746,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/64/threads:4",
+      "iterations": 841420,
+      "real_time": 205,
+      "cpu_time": 821,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/64/threads:8",
+      "iterations": 887120,
+      "real_time": 189,
+      "cpu_time": 864,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/64/threads:16",
+      "iterations": 811248,
+      "real_time": 191,
+      "cpu_time": 900,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/64/threads:32",
+      "iterations": 876192,
+      "real_time": 123,
+      "cpu_time": 888,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/64/threads:64",
+      "iterations": 640000,
+      "real_time": 23,
+      "cpu_time": 815,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/64/threads:128",
+      "iterations": 974464,
+      "real_time": 9,
+      "cpu_time": 783,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/64/threads:256",
+      "iterations": 959232,
+      "real_time": 4,
+      "cpu_time": 877,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/2048/threads:1",
+      "iterations": 25615,
+      "real_time": 27918,
+      "cpu_time": 27903,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/2048/threads:2",
+      "iterations": 23016,
+      "real_time": 14808,
+      "cpu_time": 29592,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/2048/threads:4",
+      "iterations": 22784,
+      "real_time": 8533,
+      "cpu_time": 32671,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/2048/threads:8",
+      "iterations": 20568,
+      "real_time": 7679,
+      "cpu_time": 32575,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/2048/threads:16",
+      "iterations": 22448,
+      "real_time": 5986,
+      "cpu_time": 29931,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/2048/threads:32",
+      "iterations": 24960,
+      "real_time": 5382,
+      "cpu_time": 29628,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/2048/threads:64",
+      "iterations": 24768,
+      "real_time": 3828,
+      "cpu_time": 29508,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/2048/threads:128",
+      "iterations": 14080,
+      "real_time": 2481,
+      "cpu_time": 51830,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/2048/threads:256",
+      "iterations": 6144,
+      "real_time": 22232,
+      "cpu_time": 173413,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/65536/threads:1",
+      "iterations": 44843115,
+      "real_time": 16,
+      "cpu_time": 16,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/65536/threads:2",
+      "iterations": 39323350,
+      "real_time": 9,
+      "cpu_time": 17,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/65536/threads:4",
+      "iterations": 30121212,
+      "real_time": 5,
+      "cpu_time": 19,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/65536/threads:8",
+      "iterations": 33592120,
+      "real_time": 4,
+      "cpu_time": 20,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/65536/threads:16",
+      "iterations": 37642240,
+      "real_time": 4,
+      "cpu_time": 20,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/65536/threads:32",
+      "iterations": 42421600,
+      "real_time": 3,
+      "cpu_time": 22,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/65536/threads:64",
+      "iterations": 35035904,
+      "real_time": 1,
+      "cpu_time": 19,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/65536/threads:128",
+      "iterations": 37377664,
+      "real_time": 0,
+      "cpu_time": 18,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_stack_simple/65536/threads:256",
+      "iterations": 39494144,
+      "real_time": 0,
+      "cpu_time": 19,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/64/threads:1",
+      "iterations": 673656,
+      "real_time": 1092,
+      "cpu_time": 1088,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/64/threads:2",
+      "iterations": 668488,
+      "real_time": 528,
+      "cpu_time": 1055,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/64/threads:4",
+      "iterations": 580856,
+      "real_time": 311,
+      "cpu_time": 1243,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/64/threads:8",
+      "iterations": 594560,
+      "real_time": 266,
+      "cpu_time": 1211,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/64/threads:16",
+      "iterations": 575920,
+      "real_time": 240,
+      "cpu_time": 1219,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/64/threads:32",
+      "iterations": 557504,
+      "real_time": 171,
+      "cpu_time": 1158,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/64/threads:64",
+      "iterations": 646144,
+      "real_time": 128,
+      "cpu_time": 1264,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/64/threads:128",
+      "iterations": 644224,
+      "real_time": 15,
+      "cpu_time": 1188,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/64/threads:256",
+      "iterations": 634112,
+      "real_time": 5,
+      "cpu_time": 1171,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/2048/threads:1",
+      "iterations": 17267,
+      "real_time": 39260,
+      "cpu_time": 39234,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/2048/threads:2",
+      "iterations": 16948,
+      "real_time": 20419,
+      "cpu_time": 40554,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/2048/threads:4",
+      "iterations": 11500,
+      "real_time": 14186,
+      "cpu_time": 56693,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/2048/threads:8",
+      "iterations": 11440,
+      "real_time": 14308,
+      "cpu_time": 65469,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/2048/threads:16",
+      "iterations": 10576,
+      "real_time": 10652,
+      "cpu_time": 58267,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/2048/threads:32",
+      "iterations": 10336,
+      "real_time": 9267,
+      "cpu_time": 56736,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/2048/threads:64",
+      "iterations": 10176,
+      "real_time": 10513,
+      "cpu_time": 69284,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/2048/threads:128",
+      "iterations": 2176,
+      "real_time": 32772,
+      "cpu_time": 314678,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/2048/threads:256",
+      "iterations": 2048,
+      "real_time": 83467,
+      "cpu_time": 496031,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/65536/threads:1",
+      "iterations": 124,
+      "real_time": 5693682,
+      "cpu_time": 5609122,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/65536/threads:2",
+      "iterations": 78,
+      "real_time": 3377172,
+      "cpu_time": 6743523,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/65536/threads:4",
+      "iterations": 80,
+      "real_time": 2752445,
+      "cpu_time": 10507879,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/65536/threads:8",
+      "iterations": 64,
+      "real_time": 2496386,
+      "cpu_time": 10796216,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/65536/threads:16",
+      "iterations": 48,
+      "real_time": 2513866,
+      "cpu_time": 12102443,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/65536/threads:32",
+      "iterations": 64,
+      "real_time": 3912810,
+      "cpu_time": 17472938,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/65536/threads:64",
+      "iterations": 64,
+      "real_time": 4529071,
+      "cpu_time": 21807897,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/65536/threads:128",
+      "iterations": 128,
+      "real_time": 5188875,
+      "cpu_time": 26373537,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_fastpath_rnd_dependent/65536/threads:256",
+      "iterations": 256,
+      "real_time": 7224986,
+      "cpu_time": 32365971,
+      "time_unit": "ns"
+    }
+  ]
+}
